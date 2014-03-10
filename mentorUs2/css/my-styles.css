@@ -1,0 +1,109 @@
+body {
+	font-family: 'Oswald', sans-serif;
+	background-color: #1a1a1a;
+}
+
+.sign-in {
+	background-color: #1a1a1a;
+}
+.form-group {
+	width: 275px;
+}
+
+.login {
+	background-color: #f6f6f6;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+
+}
+
+.login-btn {
+	background-color: #970908;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	color: #f6f6f6;
+	border: none;
+}
+label {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	color: #05a9df;
+}
+
+.container {
+	max-width: 1170px;
+}
+.myTopSection {
+	background-image:url('student.jpg');
+	height: 775px;
+	font-size: 46px;
+	line-height: 80px;
+	color: #f6f6f6;
+}
+
+.myTopSection ul li {
+	list-style: none;
+}
+
+.bullets {
+	padding-top: 200px;
+	text-shadow: 2px 3px 2px #3f3f3f;
+}
+
+.logo {
+	width: 384px;
+	height: 77px;
+	margin-top: 280px;
+	margin-left: 170px;
+}
+
+.signup {
+	font-size: 42px;
+	color: #05a9df;
+	margin-top: 150px;
+	text-align: center;
+}
+
+input, textarea {
+	background-color: #f6f6f6;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.myMidSection {
+	color: #05a9df;
+	font-family: 'Lato', sans-serif;
+	font-size: 22px;
+}
+
+.sign-up {
+	width: 700px;
+	margin: 86px auto;
+}
+
+input {
+	color: #05a9df;
+}
+.input-form {
+	width: 700px;
+	
+}
+select {
+	width: 400px;
+	margin: 5px auto;
+	background-color: #f6f6f6;
+}
+
+.sgnup-btn {
+	width: 210px;
+	margin: 0 auto;
+
+}
+.signup-button {
+	background-color: #970908;
+	font-family: 'Oswald', sans-serif;
+	font-size: 36px;
+	color: #f6f6f6;
+	border: none;
+
+
+}
