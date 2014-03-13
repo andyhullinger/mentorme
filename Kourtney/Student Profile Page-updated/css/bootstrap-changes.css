@@ -118,6 +118,7 @@ border: 4px solid black;
 max-width: 100%;
 }
 
+
 .info-section {
   padding-bottom: 30px;
 }
@@ -128,12 +129,16 @@ max-width: 100%;
     line-height: 2;
 }
 
+.profile-info-section > img{
+max-width: 100%;
+}
+
 .mentor-seek {
   padding: 5px;
   margin-top: 20px;
   background: rgba(0, 0, 0, .4);
   border: 1px solid rgba(201, 13, 13, .4);
-
+  line-height: 24px;
 }
 
 .profile-icons {
@@ -276,6 +281,13 @@ max-width: 100%;
   }
 }
 
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 0px;
+  border: 0px solid transparent;
+}
+
 .navbar-brand-logo {
   float: left;
   height: 76px;
@@ -335,6 +347,8 @@ max-width: 100%;
   
 }
 
+
+
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-color: #000000;
@@ -382,6 +396,7 @@ max-width: 100%;
   color: #FFFFFF;
   text-transform: uppercase;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  margin-bottom: 0px;
   }
 
   .ed-stars > img, {
@@ -407,13 +422,36 @@ padding-bottom: 0px;
   position: relative; /* So the thumbnail is relative to this */
 }
 
-  .student-info-block img{
+  .student-info-block img {
     left: 0;
     position: absolute;
     top: 0;
   }
 
+.img-responsive2,
+.img-responsive2 > img,
+.img-responsive2 > a > img {
+  display: block;
+  max-width: 100%;
+/*  height: auto;*/
+}
 
+.school-projects {
+width: 160;
+}
+
+.img-thumbnail2 {
+  display: inline-block;
+  width: 160;
+  height: auto;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
 
 
 
@@ -521,11 +559,6 @@ padding-bottom: 0px;
 
 
 
-
-.item { width: 25%; }
-.item.w2 { width: 50%; }
-
-
 #feedback { 
   height: 104px; 
   width: 104px; 
@@ -555,6 +588,47 @@ padding-bottom: 0px;
 }
 
 #feedback a:hover { 
-  background: #06c; 
+  background: #05abe2; 
+  border: 1px solid #0294c4;
 }
 
+
+/*.mentorme-button {
+margin-top: 0px;
+margin-bottom: 10px;
+}*/
+
+#mentorme { 
+  height: 40px; 
+  width: 100%; 
+/*  position: absolute; */
+/*  top: 10%; */
+  margin-top: 20px;
+/*  margin-left: 0px;*/
+  z-index: 999;
+  
+}
+
+#mentorme a { 
+  display: block; 
+/*  background: #c90d0d; */
+  background: #05abe2; 
+  height: 40px; 
+  width: 100%; 
+  padding: 5px 10px;
+  color: #fff; 
+  font-family: Lato, sans-serif; 
+  font-size: 14px; 
+  font-weight: 400; 
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 5px 5px 5px 5px;
+/*  border: 1px solid #a00606;*/
+  border: 1px solid #0294c4;
+}
+
+#mentorme a:hover { 
+  background: #c90d0d; 
+  border: 1px solid #a00606;
+}

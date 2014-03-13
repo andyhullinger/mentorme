@@ -169,6 +169,7 @@ textarea {
 }
 .container2{
     padding-bottom: 20px;
+    max-width: 555px;
 }
 hr{
     margin: 20px 0;
