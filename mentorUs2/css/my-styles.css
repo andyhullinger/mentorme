@@ -1,44 +1,81 @@
+/* GENERAL STYLES
+================================= */
+
 body {
 	font-family: 'Oswald', sans-serif;
 	background-color: #1a1a1a;
 }
 
-.sign-in {
-	background-color: #1a1a1a;
+.container {
+	max-width: 1170px;
 }
+
+
+
+/* BUTTONS
+================================= */
+.btn {
+	background-color: #c90d0d;
+	font-family: 'Oswald', sans-serif;
+	color: #f6f6f6;
+	border: none;
+}
+
+.btn:hover {
+	background-color: #05abe2;
+	border-color: #079dce;
+	color: #f6f6f6;
+}
+
+/* TOP - LOGIN AREA
+================================= */
+.top-row {
+	height: 80px; 
+	background-color: #1a1a1a;
+	border-bottom: 1px solid #c90d0d;
+}
+
+.sign-in {
+	margin-top: 15px;
+}
+*/
+
 .form-group {
 	width: 275px;
+	margin-right: -15px;
 }
 
 .login {
 	background-color: #f6f6f6;
 	font-family: 'Lato', sans-serif;
-	font-size: 20px;
-
+	font-size: 18px;
 }
 
-.login-btn {
-	background-color: #970908;
-	font-family: 'Oswald', sans-serif;
-	font-size: 20px;
-	color: #f6f6f6;
-	border: none;
-}
+
 label {
 	font-family: 'Lato', sans-serif;
 	font-size: 14px;
 	color: #05a9df;
 }
 
-.container {
-	max-width: 1170px;
-}
+
+/* TOP - MAIN AREA
+================================= */
 .myTopSection {
-	background-image:url('student.jpg');
+	background-image:url('../img/critpic.jpg');
 	height: 775px;
-	font-size: 46px;
+	font-size: 36px;
 	line-height: 80px;
 	color: #f6f6f6;
+}
+
+.tagline {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: #05a9df;
+	text-shadow:2px 3px 2px #3f3f3f;
+	margin-left: 190px;
+	margin-top: -30px;
 }
 
 .myTopSection ul li {
@@ -58,12 +95,14 @@ label {
 }
 
 .signup {
-	font-size: 42px;
+	text-shadow: 2px 3px 2px #3f3f3f;
 	color: #05a9df;
-	margin-top: 150px;
+	margin-top: 175px;
 	text-align: center;
 }
 
+/* MIDDLE - SIGNUP AREA
+================================= */
 input, textarea {
 	background-color: #f6f6f6;
 	margin-top: 10px;
@@ -72,17 +111,28 @@ input, textarea {
 .myMidSection {
 	color: #05a9df;
 	font-family: 'Lato', sans-serif;
-	font-size: 22px;
+	font-size: 18px;
 }
 
 .sign-up {
 	width: 700px;
-	margin: 86px auto;
+	margin: 50px auto;
 }
 
-input {
-	color: #05a9df;
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #05a9df;
+  opacity: .8;
+  font-size: 14px;
+  padding-top: 3px;
+
 }
+input:-moz-placeholder, textarea:-moz-placeholder {
+  color: #05a9df;
+  opacity: .8;
+  font-size: 14px;
+
+}
+
 .input-form {
 	width: 700px;
 	
@@ -91,19 +141,16 @@ select {
 	width: 400px;
 	margin: 5px auto;
 	background-color: #f6f6f6;
+	font-size: 14px;
 }
 
 .sgnup-btn {
 	width: 210px;
-	margin: 0 auto;
+	margin: 10px auto;
 
 }
-.signup-button {
-	background-color: #970908;
-	font-family: 'Oswald', sans-serif;
-	font-size: 36px;
-	color: #f6f6f6;
-	border: none;
 
 
-}
+
+
+
