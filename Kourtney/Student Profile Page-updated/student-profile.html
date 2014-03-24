@@ -14,6 +14,8 @@
 
     <link href="css/bootstrap-changes.css" rel="stylesheet">
 
+     <link href="css/Custom.css" rel="stylesheet">
+
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 
@@ -132,33 +134,113 @@
   <div class="row">
         <div class="col-xs-12 col-md-6">
           <div class="info-section">
-            <h2>About me</h2>
+            <h2>Who is Amelia?</h2>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <p></p>
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
             </div>
 
 
+          
+
+        <div class="img-school">
           <div class="info-section">
-            <h2>Selected Work</h2>
+            <h2>Current School Projects</h2>
+            <div class="row">
+              <div class="col-xs-4 col-md-4">
+                <a data-toggle="modal" data-target="#myModal">
+              <img src="images/school-1-sm.jpg" alt="Click to View Project" class="img-thumbnail img-responsive"><br>Project Title 1</a>
+              </div>
+              <div class="col-xs-4 col-md-4">
+                <a data-toggle="modal" data-target="#myModal">
+              <img src="images/school-2-sm.jpg" alt="Click to View Project" class="img-thumbnail img-responsive"><br>Project Title 2</a>
+              </div>
+              <div class="col-xs-4 col-md-4">
+                <a data-toggle="modal" data-target="#myModal">
+              <img src="images/school-3-sm.jpg" alt="Click to View Project" class="img-thumbnail img-responsive"><br>Project Title 3</a>
+              </div>
+            </div>
+          </div>
+
+
+            <!-- <div id="demoLightbox" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+            <div class='lightbox-content'>
+            <img src="images/school-1.jpg">
+            <div class="lightbox-caption"><p>Your caption here</p></div>
+        
+  </div>
+</div> -->
+
+<!-- Modal -School Projects -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Project Title 1</h4>
+      </div>
+      <div class="modal-body">
+        <center><img src="images/school-1.jpg"></center>
+        <br>
+        <strong>Project Title:</strong> Project Title 1<br>
+        <strong>Course:</strong>Typography (MCD444)<br>
+        <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        <hr>
+        <h3>Give Amelia some feedback!</h3>
+        
+        <form role="form">
+  <div class="form-group">
+<label for="exampleInputEmail1">What is your first impression of this project?</label>
+    <textarea class="form-control" rows="3"></textarea>
+  </div>
+   <div class="form-group">
+<label for="exampleInputEmail1">What are the strengths?</label>
+    <textarea class="form-control" rows="3"></textarea>
+  </div>
+     <div class="form-group">
+<label for="exampleInputEmail1">What are the weaknesses?</label>
+    <textarea class="form-control" rows="3"></textarea>
+  </div>
+     <div class="form-group">
+<label for="exampleInputEmail1">Any other feedback?</label>
+    <textarea class="form-control" rows="3"></textarea>
+  </div>
+
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <!-- <small>Footer text here...</small> -->
+        <!-- <button type="button" class="btn btn-primary">Submit</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- End Modal - School Projects-->
+
+<div class="info-section">
+            <h2>What else have I worked on?</h2>
 
             <div class="row">
               <div class="col-xs-12 col-md-12">
                <div class="container2 cols">
                 
                 <div class="box one">
-                  <img src="images/work-1.jpg" height="180" class="img-responsive2">
+                   <a data-toggle="modal" data-target="#myModal2"><img src="images/work-1.jpg" height="180" class="img-responsive2"></a>
                 </div>
                 <div class="box two">
-                  <img src="images/work-2.jpg" height="140" class="img-responsive2">
+                  <a data-toggle="modal" data-target="#myModal2"><img src="images/work-2.jpg" height="140" class="img-responsive2"></a>
                 </div>
                 <div class="box three">
-                  <img src="images/work-3.jpg" height="320" class="img-responsive2">
+                  <a data-toggle="modal" data-target="#myModal2"><img src="images/work-3.jpg" height="320" class="img-responsive2"></a>
                 </div>       
                 <div class="box four">
-                  <img src="images/work-4.jpg" height="120" class="img-responsive2">
+                  <a data-toggle="modal" data-target="#myModal2"><img src="images/work-4.jpg" height="120" class="img-responsive2"></a>
                 </div>
                 <div class="box five">
-                  <img src="images/work-5.jpg" height="200" class="img-responsive2">
+                  <a data-toggle="modal" data-target="#myModal2"><img src="images/work-5.jpg" height="200" class="img-responsive2"></a>
                 </div>
                </div>
                 </div>
@@ -166,35 +248,59 @@
 
           </div>
 
-        <div class="img-school">
-          <div class="info-section">
-            <h2>Current School Projects</h2>
-            <div class="row">
-              <div class="col-xs-4 col-md-4">
-                <a data-toggle="lightbox" href="#demoLightbox">
-              <img src="images/school-1-sm.jpg" alt="Click to View Project" class="img-thumbnail img-responsive"><br>Project Title 1</a>
-              </div>
-              <div class="col-xs-4 col-md-4">
-                <a data-toggle="lightbox" href="#demoLightbox">
-              <img src="images/school-2-sm.jpg" alt="Click to View Project" class="img-thumbnail img-responsive"><br>Project Title 2</a>
-              </div>
-              <div class="col-xs-4 col-md-4">
-                <a data-toggle="lightbox" href="#demoLightbox">
-              <img src="images/school-3-sm.jpg" alt="Click to View Project" class="img-thumbnail img-responsive"><br>Project Title 3</a>
-              </div>
-            </div>
-          </div>
-
-
-            <div id="demoLightbox" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
-            <div class='lightbox-content'>
-            <img src="images/school-1.jpg">
-            <div class="lightbox-caption"><p>Your caption here</p></div>
-        
-  </div>
-</div>
           </div>
         </div>
+
+        <!-- Modal - Other Work -->
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Project Title</h4>
+      </div>
+      <div class="modal-body">
+        <center><img src="images/work-1.jpg"></center>
+        <br>
+        <strong>Project Title:</strong> Project Title<br>
+        <strong>Client:</strong>Personal Project<br>
+        <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        <hr>
+        <h3>Give Amelia some feedback!</h3>
+        
+        <form role="form">
+  <div class="form-group">
+<label for="exampleInputEmail1">What is your first impression of this project?</label>
+    <textarea class="form-control" rows="3"></textarea>
+  </div>
+   <div class="form-group">
+<label for="exampleInputEmail1">What are the strengths?</label>
+    <textarea class="form-control" rows="3"></textarea>
+  </div>
+     <div class="form-group">
+<label for="exampleInputEmail1">What are the weaknesses?</label>
+    <textarea class="form-control" rows="3"></textarea>
+  </div>
+     <div class="form-group">
+<label for="exampleInputEmail1">Any other feedback?</label>
+    <textarea class="form-control" rows="3"></textarea>
+  </div>
+
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <!-- <small>Footer text here...</small> -->
+        <!-- <button type="button" class="btn btn-primary">Submit</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- End Modal - Other Work-->
+
 
         <div class="col-xs-12 col-md-1">
           &nbsp;
@@ -202,30 +308,59 @@
 
         <div class="col-xs-12 col-md-5">
           <div class="info-section">
-          <h2>Skills & Experience</h2>
-           <h3>Work Experience</h3>
-           <strong>Job Title 1</strong><br>
-           <strong>Company - Chicago, IL</strong><br>
-           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident
+          <h2>Student Resume</h2>
+           <h3>Courses Completed</h3>
+           <div class="col-xs-12 col-sm-6 col-md-6">
+            <ul class="list-unstyled list-group">
+              <li class="list-group-item">Intro to Computer Graphics</li>
+              <li class="list-group-item">Time Based Design</li>
+              <li class="list-group-item">Typography I</li>
+              <li class="list-group-item">Typography II</li>
+              <li class="list-group-item">Design Studio</li>
+              <li class="list-group-item">Illustration</li>
+              <li class="list-group-item">Advertisign Design</li>
+            </ul>
+           </div>
+           <div class="col-xs-12 col-sm-6 col-md-6">
+            <ul class="list-unstyled list-group">
+              <li class="list-group-item">Computer Graphic II</li>
+              <li class="list-group-item">Web Process</li>
+              <li class="list-group-item">Web Design & Development</li>
+              <li class="list-group-item">Color Theory</li>
+              <li class="list-group-item">Package Design</li>
+              <li class="list-group-item">UX Design</li>
+              <li class="list-group-item">Web Process II</li>
+            </ul>
+          </div>
+     
+<!-- 
+           <strong>Course Title 1</strong> - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident
            <p></p>
-          <strong>Job Title 1</strong><br>
-           <strong>Company - Chicago, IL</strong><br>
-           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident
-
+          <strong>Course Title 2</strong> - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident
+           <p></p>
+           <strong>Course Title 3</strong> - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident
+           <p></p> -->
+          <div class="col-xs-12 col-md-12">
            <h3>Skills</h3>
-           <ul class="list-unstyled">
-            <li>Package Design - Beginner</li>
-            <li>Logo & Branding - Advanced</li>
-            <li>Web Design - Expert</li>
+           <ul class="list-unstyled list-group">
+            <li class="list-group-item">Package Design <span class="badge">Beginner</span></li>
+            <li class="list-group-item">Logo & Branding <span class="badge">Advanced</span></li>
+            <li class="list-group-item">Web Design <span class="badge">Expert</span></li>
             </ul>
-
+          </div>
+          <div class="col-xs-12 col-md-12">
            <h3>Software</h3>
-            <ul class="list-unstyled">
-            <li>Adobe Photoshop - Advanced</li>
-            <li>Adobe Illustrator - Beginner</li>
-            <li>Adobe Dreamweaver - Expert</li>
-            <li>Adobe InDesign - Advanced</li>
+            <ul class="list-unstyled list-group">
+            <li class="list-group-item">Adobe Photoshop <span class="badge">Advanced</span></li>
+            <li class="list-group-item">Adobe Illustrator <span class="badge">Beginner</span></li>
+            <li class="list-group-item">Adobe Dreamweaver <span class="badge">Expert</span></li>
+            <li class="list-group-item">Adobe InDesign <span class="badge">Advanced</span></li>
             </ul>
+          </div>
+          
+          <p></p>
+
+            <span class="glyphicon glyphicon-download"></span> &nbsp; <a href="#">Download PDF Resume</a>
           </div>
 
 
@@ -233,10 +368,10 @@
            <h2>Connections</h2>
             <div class="row" style="padding-bottom: 20px;">
               <div class="col-xs-3 col-md-3">
-                <a href="#"><img src="images/cnct-1.jpg" class="img-thumbnail img-responsive"></a>
+                <a href="#"><img src="images/cnct-1.jpg" class="img-thumbnail img-responsive"></a><br><a href="#">Mentor</a>
               </div>
               <div class="col-xs-3 col-md-3">
-                <a href="#"><img src="images/cnct-2.jpg" class="img-thumbnail img-responsive"></a>
+                <a href="#"><img src="images/cnct-2.jpg" class="connection-img img-thumbnail img-responsive"></a>
               </div>
               <div class="col-xs-3 col-md-3">
                 <a href="#"><img src="images/cnct-3.jpg" class="img-thumbnail img-responsive"></a>
@@ -268,19 +403,20 @@
 
     <div class="row">
        <div class="col-xs-12 col-md-12">
-        <hr>
+        <h2>Amelia's Endorsements</h2>
        </div>
     </div>
 
-  <div class="row">
+  <div class="row" style="padding-top:20px;">
     <div class="col-xs-12 col-md-12">
       <div class="comments-section">
+
         
             <form class="leave-comment" role="form">
         
-        <textarea class="form-control-big" placeholder="Leave a comment"></textarea>
+        <textarea class="form-control-big" placeholder="Write an Endorsement for Amelia."></textarea>
         <p align="right"><br>
-        <button class="btn btn-lg btn-primary" type="submit">Sign in</button></p>
+        <button class="btn btn-lg btn-primary" type="submit">Submit</button></p>
       </form>
       </div>
     </div>
@@ -294,7 +430,7 @@
             <div class="panel-heading">
                 <span class="glyphicon glyphicon-comment"></span>
                 <h3 class="panel-title">
-                    Recent Comments</h3>
+                    Amelia's Endorsements</h3>
                 <span class="label label-info">
                     78</span>
             </div>
@@ -406,9 +542,28 @@
 </div>
 
 
-<div id="feedback">
+<!-- <div id="feedback">
   <a href="#">Contact Me &nbsp; <span class="glyphicon glyphicon-chevron-down"></span></a>
+</div> -->
+
+<div class="button"><div class="buttoname" align="center">Contact Me &nbsp; <span class="glyphicon glyphicon-chevron-down"></div> </div>
+
+<div  class="ContactInfo">
+  <div align="right" style="padding: 15px;">
+  <span class="glyphicon glyphicon-user" style="padding-right: 8px;"></span>Amelia Pond<br>
+  <span class="glyphicon glyphicon-envelope" style="padding-right: 8px;"></span>
+  amy.pond@whoville.com<br>
+  <span class="glyphicon glyphicon-earphone" style="padding-right: 8px;"></span>
+  312.555.5252</div>
+  <!-- 
+  <ul>
+    <li>Amelia Pond</li>
+    <li>amy.pond@whoville.com</li>
+    <li>312.555.5252</li>
+  </ul> -->
+
 </div>
+
 
 
 
@@ -426,5 +581,9 @@
               nope: ['http://masonry.desandro.com/masonry.pkgd.min.js', 'js/main.js']
             });
         </script>
+
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.5/TweenMax.min.js"></script>
+        <script src="js/greensock.js"></script>
+
   </body>
 </html>

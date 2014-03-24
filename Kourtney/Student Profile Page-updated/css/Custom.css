@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding:0;
+} /*body{
+      font-family: 'Lato';
+      font-weight: 300;
+      }*/
+
+/*----------------------
+--contact button styling
+----------------------*/
+
+    .button {
+    background: #c90d0d;
+    height: 40px;
+    font-size: 14px;
+    color: white;
+    position: fixed;
+    top: 54%;
+    left: -3px;
+    text-align: center;
+    border: 0px;
+    width: 120px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10;
+    } 
+
+    .buttoname {
+        font-family: Lato, sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+        text-align: center;
+        text-transform: uppercase;
+        position: absolute;
+        padding: 10px;
+        border-radius: 10px;
+                }
+
+/*----------------------
+--contact info styling
+----------------------*/
+
+
+
+    .ContactInfo { 
+      color: white;
+      font-family: Lato, sans-serif;
+    font-weight: 300;
+      font-size: 14px;
+      position: fixed; 
+      width: 248px;
+      height: 130px;
+      left: 0;
+      top: 48%;
+/*      right: 200px; */
+      background-color: #33CCFF;
+      z-index: 10;
+    } 
+    /*li {
+          list-style: none;
+          text-align: right;
+          font-size: 16px;
+          position: relative;
+          top: 25px;
+          right: 0px;
+          }*/
+
+
+
+
+----------------------
+--contact info styling
+----------------------
+/*ul li{
+  list-style: none;
+  display: inline;
+} 
+
+li img{
+
+      top: 0;
+      left: 0;
+      width: 30%;
+      z-index: -30;
+    }
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
